@@ -19,10 +19,14 @@ export class HomePage implements OnInit {
         description: "some meaniful discription here",
       },
       {
-        n
+        title: "title two",
+        img: "slide_1",
+        description: "some meaniful discription here",
       },
       {
-
+        title: "title three",
+        img: "slide_1",
+        description: "some meaniful discription here",
       },
     ];
   }
