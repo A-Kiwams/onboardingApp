@@ -12,7 +12,9 @@ export class HomePage implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    g
+    this.onboardSlides = [
+      h
+    ];
   }
 
   public goBack(){
