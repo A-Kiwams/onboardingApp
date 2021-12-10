@@ -14,19 +14,19 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.onboardSlides = [
       {
-        title: 'title one',
+        title: 'Prepare',
         images: 'image_1',
-        description: 'some meaniful discription here',
+        description: 'Prepare for the exams',
       },
       {
-        title: 'title two',
-        images: 'image_2',
-        description: 'some meaniful discription here',
-      },
-      {
-        title: 'title three',
+        title: 'Practice',
         images: 'image_3',
-        description: 'some meaniful discription here',
+        description: 'Practice on NursePass',
+      },
+      {
+        title: 'Confidence',
+        images: 'image_2',
+        description: 'Build your confidence',
       },
     ];
   }
