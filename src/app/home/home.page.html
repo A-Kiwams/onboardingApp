@@ -16,15 +16,15 @@
     </div>
     <div class="onboard-bottom">
       <ion-slides page="true">
-        <ion-slide>
+        <ion-slide *ngFor="let slide of onboardSlides" >
           <div class="onBoardCard">
             <div class="onBoardImage">
-              <img src="../assets/images/1.png" alt="NursePass">
+              <img src="../../assets/images/1.png" alt="NursePass">
             </div>
             <div class="onBoardDiscription ion-text-center">
-              <h4 class="ion-text-capitalize ion-no-margin">Description one</h4>
+              <h4 class="ion-text-capitalize ion-no-margin">Title</h4>
               <p class="ion-no-margin">
-                Take NursePass Exams
+                description
               </p>
             </div>
           </div>
