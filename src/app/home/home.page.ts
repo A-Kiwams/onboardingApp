@@ -15,17 +15,17 @@ export class HomePage implements OnInit {
     this.onboardSlides = [
       {
         title: 'title one',
-        img: 'slide_1',
+        images: 'image_1',
         description: 'some meaniful discription here',
       },
       {
         title: 'title two',
-        img: 'slide_1',
+        images: 'image_2',
         description: 'some meaniful discription here',
       },
       {
         title: 'title three',
-        img: 'slide_1',
+        images: 'image_3',
         description: 'some meaniful discription here',
       },
     ];

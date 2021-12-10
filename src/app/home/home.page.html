@@ -19,12 +19,12 @@
         <ion-slide *ngFor="let slide of onboardSlides" >
           <div class="onBoardCard">
             <div class="onBoardImage">
-              <img src="../../assets/images/1.png" alt="NursePass">
+              <img src="../../assets/images/{{slide.images}}.png" alt="NursePass">
             </div>
             <div class="onBoardDiscription ion-text-center">
-              <h4 class="ion-text-capitalize ion-no-margin">Title</h4>
+              <h4 class="ion-text-capitalize ion-no-margin">{{slide.title}}</h4>
               <p class="ion-no-margin">
-                description
+                {{slide.description}}
               </p>
             </div>
           </div>
