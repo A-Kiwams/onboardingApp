@@ -5,11 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage {
+export class HomePage implements OnInit {
 
   public onboardSlides = []
 
   constructor() {}
+
+  ngOnInit() {
+    g
+  }
 
   public goBack(){
 
