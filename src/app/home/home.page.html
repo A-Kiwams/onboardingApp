@@ -1,20 +1,41 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div class="onboard">
+    <div class="onboard-top">
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button color="primary" (click)="goBack()">
+            <ion-icon name="chevron-back" slot="icon-only"></ion-icon>
+          </ion-button>
+          <ion-buttons slot="end">
+            <ion-button color="dark" (click)="skipBtn()" fill="clear">
+              Skip
+            </ion-button>
+          </ion-buttons>
+        </ion-buttons>
+      </ion-toolbar>
+    </div>
+    <div class="onboard-bottom">
+      <ion-slides page="true">
+        <ion-slide>
+          <div class="onBoardCard">
+            <div class="onBoardImage">
+              <img src="../assets/images/1.png" alt="NursePass">
+            </div>
+            <div class="onBoardDiscription ion-text-center">
+              <h4 class="ion-text-capitalize ion-no-margin">Description one</h4>
+              <p class="ion-no-margin">
+                Take NursePass Exams
+              </p>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <h1></h1>
+        </ion-slide>
+        <ion-slide>
+          <h1></h1>
+        </ion-slide>
+      </ion-slides>
+    </div>
   </div>
 </ion-content>

@@ -9,4 +9,12 @@ export class HomePage {
 
   constructor() {}
 
+  public goBack(){
+
+  }
+
+  public skipBtn(){
+
+  }
+
 }
